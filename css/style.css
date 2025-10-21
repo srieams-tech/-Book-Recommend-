@@ -1,0 +1,29 @@
+
+
+
+h2 {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+}
+
+.topic-box {
+  border: 2px solid #0A4BC4 0%,  #000000 100%; /* สีกรอบ */
+  border-radius: 10px;       /* มุมโค้งมน */
+  padding: 50px;             /* ระยะห่างภายใน */
+  margin-bottom: 120px;       /* ระยะห่างระหว่างกล่อง */
+  background-color: #0A4BC4 0%,  #000000 100%; /* สีพื้นหลังอ่อนๆ */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* เงาเบาๆ */
+}
+
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    font-weight: bold;
+    color: white; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+    text-shadow: 2px 2px 4px black; /* เพิ่มขอบดำรอบตัวอักษร */
+}
